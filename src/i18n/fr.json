@@ -7,7 +7,7 @@
   "presentation-1" : "Je suis Lucas, un développeur logiciel passionné et ambitieux, actuellement en cycle ingénieur à Polytech Annecy, spécialisé en IDU (Informatique, Données & Usage).",
   "presentation-2" : "Grâce à une expérience pratique en développement web via des stages et des alternances, j'ai développé de solides compétences en développement Full Stack, en travaillant avec des technologies modernes telles que JavaScript, TypeScript, Vue.js et C#. J'aime créer des applications propres, efficaces et conviviales, et je suis toujours désireux d'apprendre de nouveaux outils et frameworks pour rester à la pointe de la technologie.",
   "presentation-3" : "Mon objectif est de contribuer à des projets à impact tout en améliorant continuellement mon expertise en tant que développeur logiciel.",
-  "what-doing" : "Ce que je fais",
+  "what-doing" : "Ce que j'aime faire :'",
   "web-development" : "Développement Web",
   "web-development-text" : "Je crée des sites web responsives et interactifs en utilisant des technologies modernes comme Vue.js, JavaScript et Tailwind CSS, en concevant des interfaces propres et conviviales.",
   "application-development" : "Développement Applicatif",
@@ -47,6 +47,7 @@
   "email" : "E-MAIL",
   "phone" : "TÉLÉPHONE",
   "birthday" : "ANNIVERSAIRE",
+  "birthday-date" : "31 Août, 2003",
   "location" : "LOCALISATION",
   "project-no-description" : "Ce projet n’a pas de description.",
   "see-project" : "Voir le projet"
