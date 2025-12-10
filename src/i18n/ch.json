@@ -7,7 +7,7 @@
   "presentation-1" : "我是Lucas，一名充满热情和抱负的软件开发者，目前在安纳西理工学院（Polytech Annecy）攻读工程学学位，专攻IDU（计算机科学、数据与应用）。",
   "presentation-2" : "通过实习和带薪实习的实际经验，我在全栈开发方面积累了丰富的技能，使用现代技术如JavaScript、TypeScript、Vue.js和C#进行开发。我喜欢构建干净、高效且用户友好的应用，并始终渴望学习新工具和框架，以保持技术前沿。",
   "presentation-3" : "我的目标是在持续提升开发技能的同时，为有影响力的项目做出贡献。",
-  "what-doing" : "我在做什么",
+  "what-doing" : "我喜欢做的事：",
   "web-development" : "网页开发",
   "web-development-text" : "我使用Vue.js、JavaScript和Tailwind CSS等现代技术构建响应式和互动性网站，创建干净且用户友好的界面。",
   "application-development" : "应用开发",
@@ -47,6 +47,7 @@
   "email" : "电子邮件",
   "phone" : "电话",
   "birthday" : "生日",
+  "birthday-date" : "2003年8月31日",
   "location" : "地址",
   "project-no-description" : "该项目没有描述。",
   "see-project" : "查看项目"

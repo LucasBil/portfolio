@@ -27,9 +27,9 @@
             loading="lazy" />
         </figure>
         <div class="card-body">
-            <h2 class="card-title">
-            {{ repo.name }}
-            <div v-if="repo.language" class="badge badge-secondary">{{ repo.language }}</div>
+            <h2 class="card-title flex gap-1 flex-wrap">
+            <div class="truncate">{{ repo.name }}</div>
+            <div v-if="repo.language" class="badge badge-secondary truncate">{{ repo.language }}</div>
             </h2>
             <p>{{ repo.description ?? t('project-no-description') }}</p>
             <div class="card-actions justify-between items-center">

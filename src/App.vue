@@ -18,12 +18,12 @@
 </script>
 
 <template>
-  <div class="min-h-screen relative p-3 md:p-0 md:py-6 grid grid-cols-1 md:grid-cols-6 gap-4">
-    <div class="md:col-start-2 md:flex md:flex-col ">
-      <ContactInfo class="md:sticky md:top-50" />
+  <div class="min-h-screen relative p-3 lg:p-0 lg:py-6 grid grid-cols-1 lg:grid-cols-8 gap-4">
+    <div class="lg:col-start-2 lg:flex lg:flex-col lg:col-span-2">
+      <ContactInfo class="lg:sticky lg:top-30" />
     </div>
-    <main class="relative bg-base-100 border-base-300 border rounded-xl p-4 md:p-10 md:col-span-3">
-      <div class="hidden md:flex absolute right-0 top-0 bg-base-300 py-3 px-10 rounded-bl-lg gap-6">
+    <main class="relative bg-base-100 border-base-300 border rounded-xl p-4 lg:p-10 lg:col-span-4">
+      <div class="hidden lg:flex absolute right-0 top-0 bg-base-300 py-3 px-10 rounded-bl-lg gap-6">
         <RouterLink v-for="link in routes"
           :class="route.name == link.router ? 'text-primary' : ''"
           :to="{ name: link.router }" >{{ link.label }}</RouterLink>
@@ -31,7 +31,7 @@
       <RouterView />
     </main>
   </div>
-  <Navbar class="md:hidden" :links="routes"/>
+  <Navbar class="lg:hidden" :links="routes"/>
 </template>
 
 <style scoped></style>

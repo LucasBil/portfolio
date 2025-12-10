@@ -55,7 +55,7 @@
 
 <template>
     <div class="flex flex-col">
-        <Title text="Resume" />
+        <Title :text="t('resume')" />
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-2">
             <div>
                 <div class="mx-2">

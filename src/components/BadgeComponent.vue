@@ -8,5 +8,5 @@
 </script>
 
 <template>
-    <span class="badge badge-outline">{{ text }}</span>
+    <span class="badge badge-outline truncate">{{ text }}</span>
 </template>

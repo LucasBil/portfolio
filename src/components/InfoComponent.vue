@@ -23,7 +23,7 @@
         </div>
         <div class="grow flex flex-col">
             <p class="font-light text-xs">{{ label }}</p>
-            <p class="font-medium">{{ value }}</p>
+            <p class="font-medium text-wrap">{{ value }}</p>
         </div>
     </div>
 </template>

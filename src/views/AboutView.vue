@@ -18,29 +18,49 @@
         <p class="font-semibold text-xl">{{ t("what-doing") }}</p>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
 
-            <div class="flex flex-col items-center gap-1 bg-base-100 shadow-2xl border border-base-300 rounded-lg p-6">
-                <GlobeAltIcon class="h-12 text-primary" />
-                <h2 class="font-bold text-lg">{{ t("web-development") }}</h2>
-                <p class="text-sm font-thin">{{ t("web-development-text") }}</p>
-            </div>
+            <label class="swap bg-base-100 shadow-2xl border border-base-300 rounded-lg p-6">
+                <input type="checkbox" />
+                <div class="flex flex-col justify-center items-center gap-1 swap-off">
+                    <GlobeAltIcon class="h-12 text-primary" />
+                    <h2 class="font-bold text-lg text-center">{{ t("web-development") }}</h2>
+                </div>
+                <div class="swap-on">
+                    <p class="text-sm font-thin text-center">{{ t("web-development-text") }}</p>
+                </div>
+            </label>
 
-            <div class="flex flex-col items-center gap-1 bg-base-100 shadow-2xl border border-base-300 rounded-lg p-6">
-                <CommandLineIcon class="h-12 text-primary" />
-                <h2 class="font-bold text-lg">{{ t("application-development") }}</h2>
-                <p class="text-sm font-thin">{{ t("application-development-text") }}</p>
-            </div>
+            <label class="swap bg-base-100 shadow-2xl border border-base-300 rounded-lg p-6">
+                <input type="checkbox" />
+                <div class="flex flex-col justify-center items-center gap-1 swap-off">
+                    <CommandLineIcon class="h-12 text-primary" />
+                    <h2 class="font-bold text-lg text-center">{{ t("application-development") }}</h2>
+                </div>
+                <div class="swap-on">
+                    <p class="text-sm font-thin text-center">{{ t("application-development-text") }}</p>
+                </div>
+            </label>
 
-            <div class="flex flex-col items-center gap-1 bg-base-100 shadow-2xl border border-base-300 rounded-lg p-6">
-                <PuzzlePieceIcon class="h-12 text-primary" />
-                <h2 class="font-bold text-lg">{{ t("card-games") }}</h2>
-                <p class="text-sm font-thin">{{ t("card-games-text") }}</p>
-            </div>
+            <label class="swap bg-base-100 shadow-2xl border border-base-300 rounded-lg p-6">
+                <input type="checkbox" />
+                <div class="flex flex-col justify-center items-center gap-1 swap-off">
+                    <PuzzlePieceIcon class="h-12 text-primary" />
+                    <h2 class="font-bold text-lg text-center">{{ t("card-games") }}</h2>
+                </div>
+                <div class="swap-on">
+                    <p class="text-sm font-thin text-center">{{ t("card-games-text") }}</p>
+                </div>
+            </label>
 
-            <div class="flex flex-col items-center gap-1 bg-base-100 shadow-2xl border border-base-300 rounded-lg p-6">
-                <BookOpenIcon class="h-12 text-primary" />
-                <h2 class="font-bold text-lg">{{ t("animation") }}</h2>
-                <p class="text-sm font-thin">{{ t("animation-text") }}</p>
-            </div>
+            <label class="swap bg-base-100 shadow-2xl border border-base-300 rounded-lg p-6">
+                <input type="checkbox" />
+                <div class="flex flex-col justify-center items-center gap-1 swap-off">
+                    <BookOpenIcon class="h-12 text-primary" />
+                    <h2 class="font-bold text-lg text-center">{{ t("animation") }}</h2>
+                </div>
+                <div class="swap-on">
+                    <p class="text-sm font-thin text-center">{{ t("animation-text") }}</p>
+                </div>
+            </label>
 
         </div>
     </div>

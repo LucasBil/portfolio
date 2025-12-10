@@ -12,10 +12,10 @@
 </script>
 
 <template>
-    <div tabindex="0" class="collapse md:collapse-open collapse-plus bg-base-100 border-base-300 border rounded-xl">
-        <div class="collapse-title grid grid-flow-col grid-rows-1 md:grid-rows-2 place-items-center gap-2">
+    <div tabindex="0" class="collapse lg:collapse-open collapse-plus bg-base-100 border-base-300 border rounded-xl">
+        <div class="collapse-title grid grid-flow-col grid-rows-1 lg:grid-rows-2 place-items-center gap-2">
             <Avatar avatar="memoji.png" />
-            <div class="grow flex flex-col md:items-center gap-2">
+            <div class="grow flex flex-col lg:items-center gap-2">
                 <p class="font-semibold">Lucas BILLY</p>
                 <div class="flex gap-3 flex-wrap">
                     <Badge :text="t('web-developer')" />
@@ -27,11 +27,11 @@
             <div class="flex flex-col gap-4">
                 <Info :icon="EnvelopeIcon" :label="t('email')" value="lucasbill318@icloud.com" />
                 <Info :icon="DevicePhoneMobileIcon" :label="t('phone')" value="+33 7 50 25 32 56" />
-                <Info :icon="CalendarDateRangeIcon" :label="t('birthday')" value="August 31, 2003" />
+                <Info :icon="CalendarDateRangeIcon" :label="t('birthday')" :value="t('birthday-date')" />
                 <Info :icon="MapPinIcon" :label="t('location')" value="Alby-sur-Chérant, Haut Savoie, France" />
             </div>
-            <div class="md:hidden divider my-1"></div>
-            <div class="flex md:justify-center gap-3">
+            <div class="lg:hidden divider my-1"></div>
+            <div class="flex lg:justify-center gap-3">
                 <a href="https://github.com/LucasBil" target="_blank">
                     <Github class="h-6"/>
                 </a>
